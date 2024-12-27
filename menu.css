@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  margin: 0;
+}
+
+nav img {
+  max-height: 80px; /* Adjust the height of the logo as needed */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+.container {
+  margin-top: 40%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid brown;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: rgb(159, 45, 45);
+  font-weight: bold;
+  font-family: 'Caveat', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+/* MENU */
+  .menu-heading{
+    text-transform: uppercase;
+    margin: 5%;
+    text-align: center;
+    color: rgb(159, 45, 45);
+    word-spacing: 1.2em;
+    letter-spacing: 0.3em;
+  }
+  .menu-1 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+  }
+  .brunch-img img{
+    width: 50vh;
+    height: auto;
+    margin-left: 30%;
+    padding: auto;
+  }
+  .brunch{
+    text-align: center;
+    margin-top: 8%;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .brunch img{
+    width: 80px;
+    height: auto;
+  }
+  .brunch-slogan{
+    margin-left: 20%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.4em;
+  }
+  .breakfast-img img{
+    width: 50vh;
+    height: auto;
+    padding: auto;
+    margin: 50px;
+  }
+  .breakfast{
+    text-align: center;
+    margin-top: 8%;
+    color: #fff;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  .breakfast img{
+    width: 80px;
+    height: auto;
+  }
+  .breakfast-slogan{
+    margin-left: 10%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.4em;
+  }
+
+  
+
+
+
+
+  .two-img{
+    margin-left: 100%;
+  }
+  .two{
+    margin-right: 90px;
+    font-size: xx-large;
+  }
+  footer{
+    background-color: black;
+  }
+  footer p{
+    text-align: center;
+    color: #fff;
+  }
+  footer img{
+    max-height: 70px;
+  }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+
+    <nav>
+        <img src="./images/image-removebg-preview.png" alt="Logo">
+        <!-- <ul>
+            <li><a href="file:///C:/Users/HP/OneDrive/Desktop/Restaurant%20clone/index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Event & Celebration</a></li>
+            <li><a href="file:///C:/Users/HP/OneDrive/Desktop/Restaurant%20clone/feedback.html">Feedback</a></li>
+            <li><a href="file:///C:/Users/HP/OneDrive/Desktop/Restaurant%20clone/menu.html">Menu</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul> -->
+    </nav>
+      <br><br> <br>
+
+
+    <div class="container">
+        <h1>Restaurant Reservation</h1>
+        <form action="reservation.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+
+            <label for="date">Reservation Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Reservation Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="type">Reservation Type:</label>
+            <select id="type" name="type">
+                <option value="Please Select">Please Select</option>
+                <option value="Dinner">Dinner</option>
+                <option value="VIP">VIP/Mazzanine</option>
+                <option value="Birthday/Anniversary">Birthday/Anniversary</option>
+                <option value="Wedding">Wedding</option>
+                <option value="Private">Private</option>
+                <option value="Corporate">Corporate</option>
+                <option value="Holiday">Holiday</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="requests">Any Other Requests:</label>
+            <textarea id="requests" name="requests" rows="4"></textarea>
+
+            <input type="submit" value="Make Reservation">
+        </form>
+    </div>
+
+    <div class="div">
+        <p>YOUR INFORMATION IS SAFE WITH US. IT WILL NOT BE SHARED OUTSIDE THE RESTAURANT</p>
+      </div>
+      <br>
+      <hr>
+      <footer>
+        <p>&copy; 2023 All Rights Reserved | <img src="./images/image-removebg-preview.png" alt=""></p>
+      </footer>
+</body>
+</html>
